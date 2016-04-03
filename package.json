@@ -1,0 +1,23 @@
+{
+  "name": "factory-factory",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/he3/FF.git"
+  },
+  "author": "Henry",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/he3/FF/issues"
+  },
+  "homepage": "https://github.com/he3/FF#readme",
+  "dependencies": {
+    "express": "4.13.4"
+  }
+}
