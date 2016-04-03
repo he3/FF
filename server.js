@@ -1,14 +1,18 @@
-"use strict"
+(function(){
 
-const express = require("express");
+    "use strict"
 
-const PORT = 8080;
+    const express = require("express");
 
-const app = express();
-app.get("/", function(req, res){
-    console.log("Request handled.")
-    res.send("Express on"); 
-});
+    const PORT = 8080;
 
-app.listen(PORT);
-console.log("Running on http://localhost:" + PORT);
+    const app = express();
+    app.get("/", (req, res) => {
+        console.log("Request handled.")
+        res.send("Express on"); 
+    });
+
+    app.listen(PORT);
+    console.log("Running on http://localhost:" + PORT);
+    
+})()
