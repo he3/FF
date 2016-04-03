@@ -2,14 +2,15 @@
 
     "use strict"
 
-    const express = require("express");
-
     const PORT = 8080;
 
+    const express = require("express");
     const app = express();
+
+    app.use(express.static(__dirname + '/public'));
+
     app.get("/", (req, res) => {
-        console.log("Request handled.")
-        res.send("Express on"); 
+        res.sendfile("./public/index.html"); 
     });
 
     app.listen(PORT);
