@@ -1,0 +1,60 @@
+{"frames": {
+
+"BeltR1.png":
+{
+	"frame": {"x":1,"y":1,"w":50,"h":35},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":8,"w":50,"h":35},
+	"sourceSize": {"w":50,"h":50}
+},
+"BeltR2.png":
+{
+	"frame": {"x":1,"y":38,"w":50,"h":35},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":8,"w":50,"h":35},
+	"sourceSize": {"w":50,"h":50}
+},
+"BeltR3.png":
+{
+	"frame": {"x":1,"y":75,"w":50,"h":35},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":8,"w":50,"h":35},
+	"sourceSize": {"w":50,"h":50}
+},
+"BeltR4.png":
+{
+	"frame": {"x":1,"y":112,"w":50,"h":35},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":8,"w":50,"h":35},
+	"sourceSize": {"w":50,"h":50}
+},
+"BeltR5.png":
+{
+	"frame": {"x":1,"y":149,"w":50,"h":35},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":8,"w":50,"h":35},
+	"sourceSize": {"w":50,"h":50}
+},
+"BeltR6.png":
+{
+	"frame": {"x":1,"y":186,"w":50,"h":35},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":8,"w":50,"h":35},
+	"sourceSize": {"w":50,"h":50}
+}},
+"meta": {
+	"app": "http://www.codeandweb.com/texturepacker",
+	"version": "1.0",
+	"image": "BeltR.png",
+	"format": "RGBA8888",
+	"size": {"w":52,"h":222},
+	"scale": "1",
+	"smartupdate": "$TexturePacker:SmartUpdate:1697206726576f86571b12b814c6ec91:af320a9fb269aa2e7a33a26d885c08c5:e8df0009f19f2e232a0fbbf9fa78fcb3$"
+}
+}
