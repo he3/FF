@@ -1,0 +1,39 @@
+#HYPERV
+
+-Create a Virtual Switch
+Open Virtual Switch Manager in Hyper-V Manager
+Click Create Virtual Switch(External)
+Make sure external network is valid and click OK.
+
+#Docker Commands
+
+- Create hyperv machine named vm01
+docker-machine create -d hyperv vm01
+
+- List Machines (See Ips)
+docker-machine ls
+
+- Delete Machine 
+docker-machine rm -f MACHINENAME
+
+- Attach to Environment (to use docker) for machine name vm01
+docker-machine env vm01 | invoke-expression
+
+- Build image named ff with tag ff:01 (from dir with Dockerfile)
+docker build -t ff:01 .
+
+- Run image ff:01 detached with port mapping 8080 to 8080 in
+- a new container. 
+docker run -d -p 8080:8080 ff:01
+
+- List running containers (get the container ids)
+docker ps
+
+- List images
+docker images
+
+- Delete running container
+docker rm -f CONTAINERID
+
+- Delete image by tag
+docker rmi ff:01
